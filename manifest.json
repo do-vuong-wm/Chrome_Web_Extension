@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "DarkThemeYoutube",
+  "description": "Makes Youtube Dark",
+  "version": "1.2",
+
+  "icons": {
+    "16": "resources/food.png",
+    "48": "resources/food.png",
+    "128": "resources/food.png"
+  },
+
+  "browser_action": {
+    "default_icon": "resources/food.png",
+    "default_popup": "GGame.html"
+
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/",
+    "background",
+    "tabs",
+    "permissions"
+  ]
+}
